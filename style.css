@@ -1,0 +1,15 @@
+.missing {
+    background-color: red;
+}
+tr {
+    background-color: lightgreen;
+}
+.warning {
+    background-color: yellow;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    padding-right: 10px;
+}
