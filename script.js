@@ -28,7 +28,7 @@ document.getElementById('fetch').onclick = async (e) => {
         let d = new Date();
         d.setDate(d.getDate() - i++);
 
-        if (currMonth && currMonth !== d.getMonth()) months++;
+        if (currMonth !== undefined && currMonth !== d.getMonth()) months++;
         currMonth = d.getMonth();
 
         if (months === 2) break;
