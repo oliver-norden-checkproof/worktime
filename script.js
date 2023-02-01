@@ -21,7 +21,7 @@ document.getElementById('fetch').onclick = async (e) => {
     }
 
     let days = {};
-    let months = 1;
+    let months = 0;
     let currMonth;
     let i = 0;
     while (true) {
