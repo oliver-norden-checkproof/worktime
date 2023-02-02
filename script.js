@@ -33,7 +33,7 @@ document.getElementById('fetch').onclick = async (e) => {
 
         if (months === 2) break;
 
-        if ([0,6].indexOf(d.getUTCDay()) !== -1) {
+        if ([0,6].indexOf(d.getDay()) !== -1) {
             continue;
         }
         days[d.toLocaleDateString()] = 0;
